@@ -5,6 +5,8 @@
 
 git clone https://github.com/wanhuahu/nestjs-notes
 
+cd nestjs-notes
+
 npm install
 
 npm run start
