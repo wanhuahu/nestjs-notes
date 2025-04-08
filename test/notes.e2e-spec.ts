@@ -32,12 +32,6 @@ describe('NotesController (e2e)', () => {
         content: 'c1',
         createdAt: new Date('2025-03-21T18:30:40.673Z'),
       },
-      {
-        _id: '67ddb0b4ef4b6192d23242d1',
-        title: 't2',
-        content: 'c2',
-        createdAt: new Date('2025-03-21T18:32:20.150Z'),
-      },
     ]);
   });
 
@@ -58,13 +52,6 @@ describe('NotesController (e2e)', () => {
           title: 't1',
           content: 'c1',
           createdAt: '2025-03-21T18:30:40.673Z',
-          __v: 0,
-        },
-        {
-          _id: '67ddb0b4ef4b6192d23242d1',
-          title: 't2',
-          content: 'c2',
-          createdAt: '2025-03-21T18:32:20.150Z',
           __v: 0,
         },
       ]);
