@@ -10,3 +10,7 @@ cd nestjs-notes
 npm install
 
 npm run start
+
+unit test command: npm test notes.service.spec.ts
+
+Supertest e2e test command: npm run test:e2e notes.e2e-spec.ts
